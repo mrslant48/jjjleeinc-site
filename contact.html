@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact JJJLEE Inc. — Notary and business consulting services in Los Angeles.">
+  <title>Contact | JJJLEE Inc.</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="nav-logo">JJJ<span>LEE</span> Inc.</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <div class="container">
+      <p class="label">Get In Touch</p>
+      <h1>Contact Us</h1>
+      <p>Have a question or ready to get started? We'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <h2>Let's Connect</h2>
+          <p class="intro">Reach out by phone, email, or use the form and we'll get back to you promptly.</p>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div class="contact-item-text">
+              <strong>Phone</strong>
+              <a href="tel:8186447558">(818) 644-7558</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div class="contact-item-text">
+              <strong>Email</strong>
+              <a href="mailto:johnhyemin@gmail.com">johnhyemin@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div class="contact-item-text">
+              <strong>Service Area</strong>
+              <span>Greater Los Angeles, CA and surrounding areas</span>
+            </div>
+          </div>
+        </div>
+
+        <!--
+          CONTACT FORM SETUP:
+          1. Go to formspree.io and create a free account
+          2. Create a new form — Formspree will give you a unique endpoint URL
+          3. Replace "YOUR_FORM_ID" below with that ID (e.g. xyzabcde)
+          Free tier allows 50 submissions/month.
+        -->
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="hidden" name="_subject" value="New inquiry — JJJLEE Inc.">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000">
+              </div>
+              <div class="form-group">
+                <label for="service">Service Interested In</label>
+                <select id="service" name="service">
+                  <option value="">Select a service...</option>
+                  <option>Notary Services</option>
+                  <option>Administrative Consulting</option>
+                  <option>Bookkeeping Support</option>
+                  <option>Financial Organization</option>
+                  <option>Operational Assistance</option>
+                  <option>E-Commerce &amp; Business Activities</option>
+                  <option>Other / General Inquiry</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your needs..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-navy form-submit">Send Message</button>
+            <p class="form-note">We typically respond within 1 business day.</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>JJJ<span>LEE</span> Inc.</h3>
+          <p>Professional notary services, business consulting, and administrative support for small businesses in the greater Los Angeles area.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>
+            <a href="tel:8186447558">(818) 644-7558</a><br>
+            <a href="mailto:johnhyemin@gmail.com">johnhyemin@gmail.com</a><br>
+            <span>Los Angeles, CA</span>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 JJJLEE Inc. All rights reserved.</span>
+        <span>Los Angeles, CA</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
